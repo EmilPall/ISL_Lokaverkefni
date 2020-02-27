@@ -1,0 +1,444 @@
+#body {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.navbar-toggle:focus {
+    outline: none;
+}
+
+/*.container {
+    background-color: #fff;
+    box-shadow: 10px 10px 50px  #888888;
+    height: 595px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+p {
+    overflow: hidden
+}
+
+h1{
+    font-size: 50px;
+}
+
+.pageSeperator {
+    margin: 40px;
+}
+
+.container {
+    display: flex;
+    height: 595px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#page1 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/oda-nobunaga-870x976.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#page2 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/tokugawa.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#page3 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/tokugawa.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+} 
+#page4 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/orusta.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+#page5 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/orusta.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+#page6 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/kyoto%203.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+#page7 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/30275.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+} 
+#page8 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/kyoto5.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+#page9 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/shingen2.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+} 
+#page10 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/sigurtakeda.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+#page11 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/dau%C3%B0ioda3.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+#page12 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/dau%C3%B0ioda3.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+#page13 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/dau%C3%B0ioda3.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+#page14 .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url(/Images/dau%C3%B0ioda3.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.right-container {
+    flex: 0 1 50%;
+    display: flex;
+    height: 100%;
+    max-width: 50%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center
+}
+
+#main {
+    position: relative;
+}
+
+#main:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-image: url(/Images/mount%20fuji.jpg);
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+/******************************************** Pages ***********************************************/
+
+#homePage {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+    /*background-image: url(/Images/oda-nobunaga-870x976.jpg) */
+
+}
+
+#page1 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page2 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page3 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page4 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page5 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page6 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page7 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page8 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page9 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page10 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page11 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page12 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+#page13 {
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.1);
+    /*outline: none;
+    box-shadow: none;*/
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+
+
+/************************************************ Navigation bar*****************************************/
+
+#menu li {
+    display: inline-block;
+    margin: 10px;
+    color: #000;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#menu li.active {
+    background: #666;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+#menu li.focus {
+    outline: none;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#menu li a:focus {
+    text-decoration: none;
+}
+
+#menu li.active a:hover {
+    color: #000;
+}
+
+#menu li:hover {
+    background: rgba(0, 255, 255, 0.8);
+}
+
+#menu li a,
+#menu li.active a {
+    padding: 9px 18px;
+    display: block;
+}
+
+#menu li.active a {
+    color: #fff;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/******************************* Screen size handling ****************************************************/
+
+@media screen and (max-width: 1024px) {
+
+    #fullpage,
+    #menu {
+        display: none !important;
+    }
+
+    #error {
+        display: block;
+    }
+}

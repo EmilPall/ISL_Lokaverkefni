@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Verkefni</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font family -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- D3 -->
+    <script src="https://d3js.org/d3.v3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.0/topojson.js"></script>
+    <!-- Full page for smooth scrolling -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <script type="text/javascript" src="scripts/jquery.fullPage.min.js">
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<!-- Begin Header -->
+<nav id="menu" class="navbar navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav" id="menu">
+                <li data-menuanchor="Home" class="active"><a href="#Home" onclick="this.blur();" style="outline:0">Upphafsíða</a></li>
+                <li data-menuanchor="firstPage"><a href="#firstPage" onclick="this.blur();" style="outline:0">Síða 1</a></li>
+                <li data-menuanchor="secondPage"><a href="#secondPage" onclick="this.blur();" style="outline:0">Síða 2</a></li>
+                <li data-menuanchor="thirdPage"><a href="#thirdPage" onclick="this.blur();">Síða 3</a></li>
+                <li data-menuanchor="fourthPage"><a href="#fourthPage" onclick="this.blur();">Síða 4</a></li>
+                <li data-menuanchor="fifthPage"><a href="#fifthPage" onclick="this.blur();">Síða 5</a></li>
+                <li data-menuanchor="sixthPage"><a href="#sixthPage" onclick="this.blur();">Síða 6</a></li>
+                <li data-menuanchor="seventhPage"><a href="#seventhPage" onclick="this.blur();">Síða 7</a></li>
+                <li data-menuanchor="eighthPage"><a href="#eighthPage" onclick="this.blur();">Síða 8</a></li>
+                <li data-menuanchor="ninthPage"><a href="#ninethPage" onclick="this.blur();">Síða 9</a></li>
+                <li data-menuanchor="TenthPage"><a href="#TenthPage" onclick="this.blur();">Síða 10</a></li>
+                <li data-menuanchor="EleventhPage"><a href="#EleventhPage" onclick="this.blur();">Síða 11</a></li>
+                <li data-menuanchor="TwelvethPage"><a href="#TwelvethPage" onclick="this.blur();">Síða 12</a></li>
+                <li data-menuanchor="TwelvethPage"><a href="#ThirtenthPage" onclick="this.blur();">Síða 13</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End Header -->
+
+<body id="main">
+    <div id="fullpage">
+
+        <!-- Begin pages -->
+        <div class="section">
+            <div class="container" data-anchor="Home" id="homePage">
+                <article>
+                    <h1>Kynning</h1>
+                </article>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container" data-anchor="firstPage" id="page1">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Oda Nobunaga</h1>
+                        <p>Hann var fæddur árið: 1534, 23 Júni
+                            Fæðingar staður : Nagoya
+                            Fjölskyldu nafn : Oda Hann dó 21 júní árið 1582
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container" data-anchor="secondPage" id="page2">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Tokugawa Iyeasu</h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container" data-anchor="thirdPage" id="page3">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Tokugawa Iyeasu</h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container" data-anchor="fourthPage" id="page4">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Oda og Tokugawa</h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container" data-anchor="fourthPage" id="page5">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Orusta Imigawas og Oda</h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container" data-anchor="fifthPage" id="page6">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Litið til Kyoto</h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container" data-anchor="sixthPage" id="page7">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Ráðist á Saito</h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container" data-anchor="seventhPage" id="page8">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Oda tekur kyoto</h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container" data-anchor="eightPage" id="page9">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Takeda Shingen</h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container" data-anchor="ninethPage" id="page10">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Shingen sigrar Tokugawa</h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+        <div class="section">
+            <div class="container" data-anchor="TenthPage" id="page11">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Dauði Oda Nobunaga </h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+        <div class="section">
+            <div class="container" data-anchor="EleventhPage" id="page12">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Hideyoshi drepur Akechi</h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+        <div class="section">
+            <div class="container" data-anchor="TwelvethPage" id="page13">
+                <div class="left-container"></div>
+                <div class="right-container">
+                    <article>
+                        <h1>Árið 1589 </h1>
+                        <ul>
+                            <li>Hann var fædur árið :1543 31 janúar</li>
+                            <li>Fæðingar staður: Okazaki</li>
+                            <li>Fjölskyldu nafn: Matsudaira</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+
+
+
+
+    <!-- End pages -->
+    <script>
+        $(document).ready(function() {
+            // Load fullpage settings
+            $('#fullpage').fullpage({
+                anchors: ['Home', 'firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'eighthPage', 'ninethPage', 'TenthPage', 'EleventhPage', 'TwelvethPage', 'ThirtenthPage'],
+                navigation: true,
+                navigationPosition: 'right',
+                navigationTooltips: ['Kynning', 'Oda Nobunaga', 'Tokugawa Iyeasu', 'Árið 1556', 'Oda og Tokugawa', 'Orusta Imigawas og Oda', 'Litið til Kyoto', 'Ráðist á Saito', 'Oda tekur Kyoto', 'Takeda Shingen', 'Shigen sigrar Tokugawa', 'Dauði Oda Nobunaga', 'Hideyoshi drepur Akechi', 'Árið 1589'],
+                showActiveTooltip: false,
+                menu: '#menu',
+                scrollingSpeed: 2000,
+                animateAnchor: true,
+                onLeave: function(index, nextIndex, direction) {
+                    var leavingSection = $(this);
+
+                    //after leaving section 2
+                    if (index == 2 && direction == 'down') {
+                        //reset();
+                    } else if (index == 2 && direction == 'up') {
+                        //reset();
+                    }
+
+                }
+
+            });
+        });
+    </script>
+
+</body></html>
