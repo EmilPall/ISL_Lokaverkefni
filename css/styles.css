@@ -44,7 +44,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url("https://github.com/EmilPall/ISL_Lokaverkefni/blob/master/Images/oda-nobunaga-870x976.jpg");
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/oda-nobunaga-870x976.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -55,7 +55,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/tokugawa.jpg);
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/tokugawa.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -66,7 +66,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/Imagawa-Yoshimoto-Ukiyo-e.jpg)
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/Imagawa-Yoshimoto-Ukiyo-e.jpg")
         ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/orusta.jpg);
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/orusta.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -89,7 +89,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/samurai-shogun_bbya.960.webp);
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/samurai-shogun_bbya.960.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -100,7 +100,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/kyoto%203.jpg);
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/kyoto%203.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -111,7 +111,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/kyoto5.jpg);
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/kyoto5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -122,7 +122,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/shingen2.jpg);
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/shingen2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -133,7 +133,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/sigurtakeda.jpg);
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/sigurtakeda.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -144,7 +144,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/sigurtakeda.jpg);
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/dau%C3%B0ioda3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -155,7 +155,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/dau%C3%B0ioda3.jpg);
+    background-image: url("");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
