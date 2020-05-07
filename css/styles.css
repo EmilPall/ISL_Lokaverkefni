@@ -215,7 +215,7 @@ h1 {
     top: 0;
     left: 0;
     background-size: cover;
-    background-image: url(/Images/mount%20fuji.jpg);
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/mount%20fuji.jpg");
     width: 100%;
     height: 100%;
     opacity: 0.5;
