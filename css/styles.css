@@ -22,7 +22,7 @@ p {
     overflow: hidden
 }
 
-h1{
+h1 {
     font-size: 50px;
 }
 
@@ -44,10 +44,10 @@ h1{
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/oda-nobunaga-870x976.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-image: url("https://github.com/EmilPall/ISL_Lokaverkefni/blob/master/Images/oda-nobunaga-870x976.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #page2 .left-container {
@@ -56,9 +56,9 @@ h1{
     max-width: 50%;
     padding: .5em;
     background-image: url(/Images/tokugawa.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #page3 .left-container {
@@ -66,121 +66,134 @@ h1{
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/tokugawa.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
-} 
+    background-image: url(/Images/Imagawa-Yoshimoto-Ukiyo-e.jpg)
+        ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 #page4 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
     background-image: url(/Images/orusta.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 #page5 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/orusta.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-image: url(/Images/samurai-shogun_bbya.960.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 #page6 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
     background-image: url(/Images/kyoto%203.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 #page7 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/30275.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
-} 
+    background-image: url(/Images/kyoto5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 #page8 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/kyoto5.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-image: url(/Images/shingen2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 #page9 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/shingen2.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
-} 
+    background-image: url(/Images/sigurtakeda.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 #page10 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
     background-image: url(/Images/sigurtakeda.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 #page11 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
     background-image: url(/Images/dau%C3%B0ioda3.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 #page12 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
     background-image: url(/Images/dau%C3%B0ioda3.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 #page13 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
     background-image: url(/Images/dau%C3%B0ioda3.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 #page14 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
     background-image: url(/Images/dau%C3%B0ioda3.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 .right-container {
     flex: 0 1 50%;
     display: flex;
