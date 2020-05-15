@@ -38,7 +38,16 @@ h1 {
     margin-right: auto;
 
 }
-
+#homePage .left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    padding: .5em;
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/Sengoku-Jidai-Gempei-Kassen-Free-Download.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 #page1 .left-container {
     flex: 0 1 50%;
     min-height: 100%;
@@ -155,7 +164,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url("");
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/Toyotomi-Hideyoshi-cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -166,29 +175,7 @@ h1 {
     min-height: 100%;
     max-width: 50%;
     padding: .5em;
-    background-image: url(/Images/dau%C3%B0ioda3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#page13 .left-container {
-    flex: 0 1 50%;
-    min-height: 100%;
-    max-width: 50%;
-    padding: .5em;
-    background-image: url(/Images/dau%C3%B0ioda3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#page14 .left-container {
-    flex: 0 1 50%;
-    min-height: 100%;
-    max-width: 50%;
-    padding: .5em;
-    background-image: url(/Images/dau%C3%B0ioda3.jpg);
+    background-image: url("https://raw.githubusercontent.com/EmilPall/ISL_Lokaverkefni/master/Images/toku.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -201,7 +188,9 @@ h1 {
     max-width: 50%;
     flex-wrap: wrap;
     align-items: flex-start;
-    text-align: center
+    text-align: center;
+    justify-content: center;
+  
 }
 
 #main {
@@ -233,8 +222,6 @@ h1 {
     font-size: 18px;
     font-weight: bolder;
     color: #000;
-    /*background-image: url(/Images/oda-nobunaga-870x976.jpg) */
-
 }
 
 #page1 {
@@ -368,19 +355,6 @@ h1 {
     font-weight: bolder;
     color: #000;
 }
-
-#page13 {
-    text-align: center;
-    vertical-align: middle;
-    background: rgba(0, 0, 0, 0.1);
-    /*outline: none;
-    box-shadow: none;*/
-    font-size: 18px;
-    font-weight: bolder;
-    color: #000;
-}
-
-
 
 /************************************************ Navigation bar*****************************************/
 
